@@ -1,0 +1,111 @@
+:root {
+    --main-back-color: #002C3e; /* #002C3e */
+    --text-color: #f7f8f3;
+    --button-color: #f7444e;
+    --place-color: #ffffff; /*78bCC4 */ 
+  } 
+  
+  * {
+    margin: 0;
+    padding: 0; 
+    
+  }
+  
+  #wrapper {
+    display: block; 
+    position: absolute; 
+    border: 1px solid #78bCC4; 
+    border-radius: 20px;
+    width: 400px;
+    height: 400px; 
+    left: 25%;
+    top: 5%;
+    background-color: var(--main-back-color);
+  
+  
+    
+  }
+  
+  
+  #container {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    height: 400px;
+  }
+  .txt {
+    position: relative;
+    padding: 0 0 1% 0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center; 
+    font-family: 'Merriweather', serif;
+    color:  var(--text-color);
+    
+  }
+  .cont {
+    position: relative; 
+    padding: 1% 1% 2% 3%;
+    margin-top: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: 7%;
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    width: 90%;
+    background-color: var(--place-color);
+    border: 3px solid #78bCC4;
+    border-radius: 5px;
+     
+  }
+  
+  ::placeholder {
+    color: var(--main-back-color);
+    letter-spacing: 1px;
+       
+  }
+  
+  #but {
+    position: relative;
+    width: 30%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-family: 'Merriweather', serif;
+    background-color: var(--button-color);
+    border-style: hidden;
+    color: var(--text-color);
+    font-weight: bold; 
+    box-shadow: 0 4px #87262b;
+  
+  
+  }
+  but:active {
+    transform: translateY(3px);
+      box-shadow: 0 2px #87262b;
+  
+  
+  }
+  
+  input, select, textarea {
+    color: var(--main-back-color);
+    
+  
+  }
+  #change {
+    position: relative; 
+    margin-top: 20px;
+    width: auto; 
+    
+    
+     
+  }
+  .chng {
+    height: 50px;
+    width: auto; 
+    margin-left:5px;
+    padding: 0 0 0 0; 
+  }

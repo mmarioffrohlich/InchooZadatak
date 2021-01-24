@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <form name="forma" id="frm" action>
+    <input type="number" id="godina" placeholder="Godina rođenja">
+    <input type="number" id="mjesec" placeholder="Mjesec rođenja">
+    <input type="number" id="dan" placeholder="Datum rođenja">
+
+    <div id="radio">
+      <input type="radio" id="male" name="gender" value="213" checked>
+      <label for="male">Muško</label><br>
+      <input type="radio" id="female" name="gender" value="214">
+      <label for="female">Žensko</label><br>
+    </div>
+
+    <input type="number" id="tin" placeholder="TIN">
+  </form>
+
+  <!-- p id = "rez"></p> -->
+  <button class="tipka" id="btn">Izračunaj</button>
+  <button class="tipka" id="reset">Reset</button>
+  <script src="app.js"></script>
+</body>
+
+</html>
+</body>
+
+
+

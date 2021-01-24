@@ -1,0 +1,94 @@
+* {
+    margin:0; 
+    padding: 0;
+  }
+  #container {
+    width: 70%; 
+    height: 350px; 
+    border: 1px solid black; 
+    position: absolute; 
+    top: 10%;
+    left: 20%;  
+    background: #3e503c;
+  }
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff6f3d;
+  
+  }
+  .text {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    color: #f3ecdb;
+  }
+  .LR_container {
+    position: relative; 
+     
+  }
+  #container_left {
+    float: left;
+    width: 40%;
+    height: 250px;
+    text-align: center; 
+    position: relative;
+    top: 10%;
+   
+  }
+  #LR_text {
+    position: relative;
+  
+  }
+  h1{
+    font-size: 2em;
+    padding-bottom: 10%;
+  }
+  p {
+    letter-spacing: 3px;
+  }
+  #container_right {
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 150px;
+    text-align: center; 
+    font-size: 1.7em;
+    top: 30%;
+    right: 10%;
+    float: right;
+     border-left: 3px solid #7f886a
+  }
+  form {
+    margin: 0 auto; 
+   font-family: 'Proza Libre', sans-serif;
+  
+   
+  }
+  label {
+    display: inline-block;
+    margin-top:20px;
+    color:#ff6f3d;
+    vertical-align: middle; 
+        
+  }
+  input {
+     margin-left: 10px;
+    color: #ff6f3d;
+    border: 2px solid #7f886a;
+    border-radius: 5px;
+    height: 23px;
+    float: right;
+    margin-top:25px;
+    outline:none; 
+    font-family: 'Proza Libre', sans-serif;
+    padding-left: 10px;
+    background: #f9f7f1; 
+  }
+  .btn{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+     font-family: 'Proza Libre', sans-serif;
+  background: #f9f7f1;
+  }

@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    
+  }
+  
+  :root {
+    --silver-color: #c7c5c7;
+    --gold-color: #cbb390;
+  }
+  
+  .form-container {
+    width: 70%;
+    height: 100%;
+  }
+  
+  .contact-me-wrapper {
+    font-size:5em;
+    margin: 50px; 
+    text-transform: uppercase;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .contact-me-text-r1, .contact-me-text-r2, .contact-me-text-r3 {
+    display: flex; 
+    justify-content: space-around;
+  }
+  
+  .contact-me-text {
+    margin-bottom: -30px;
+  }
+  
+  .contact-me-text-r1 {
+    margin-top: -30px;
+  }
+  
+  .gold {
+    color: var(--gold-color);
+  }
+  
+  .silver {
+    color: var(--silver-color);
+  }
+  
+  form {
+    height: 100%;
+    display: flex; 
+    padding: 30px 50px;
+  }
+  
+  label {
+    display: block; 
+    text-transform: uppercase; 
+    color: var(--gold-color);
+  }
+  
+  input {
+    display: inline; 
+    border: none; 
+    width: 100%;
+    border-bottom: 1px solid grey;
+    
+  }
+  
+  .form-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-details, form-message {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  textarea {
+    max-width: 100%;
+    background-attachment: local;
+    background-image: linear-gradient(to right, white 10px, transparent 10px), linear-gradient(to left, white 10px, transparent 10px),repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+      line-height: 10px;
+      padding: 8px 10px;
+  }
+  
+  .submit{
+    width: 160px;
+    height: 32px;
+    border-radius: 5px; 
+    background-color: var(--gold-color);
+    font-size: 16px;
+    margin-top: 20px;
+    color: gray;
+      
+  }
+  
+  button {
+    display: block; 
+  }
+  
+  @media only screen and (max-width: 950px) {
+    form {
+      flex-direction: column;
+    }
+    .form-message {
+      width: 90%;
+      padding: 20px 0 20px 20px ;
+    }
+    .form-details {
+      width: 90%;
+      padding: 20px; 
+    }
+    form {
+      padding: 30px 10px;
+    }
+    input {
+      margin-top: -15px; 
+      margin-left: 160px; 
+      font-size: 0.9rem; 
+      width: 40%;
+    }
+    textarea {
+      max-width: 90%;
+    }
+    contact-me-wrapper {
+      margin: 15px; 
+    }
+  }
